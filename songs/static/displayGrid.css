@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe Print"
+}
+.header {
+  grid-area: header;
+  background-color: rgb(205, 92, 92);
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  background-color: #e9967a;
+  padding: 20px;
+  color: white;
+  text-align: centre;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left left left left right right'
+    'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.right
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  background-color: #f5deb3;
+}
+
+
+
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #cd5c5c;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: centre;
+}

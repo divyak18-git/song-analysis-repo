@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='displayGrid.css') }} ">
+</head>
+<body>
+<div class="grid-container">
+    <div class="header">
+        <h1> Songs Then and Now </h1>
+        <h2>English and Hindi hits compared over the decades</h2>
+    </div>
+    <!--<div> <img src="/danceability_visualisation_by_90sdecade/" alt="danceability_visualisation_by_90sdecade"> -->
+    <div class="left">
+            <img src="/danceability_visualisation_by_90sdecade/" alt="danceability_visualisation_by_90sdecade">
+    </div>
+    <div class="right" color="white" padding="20px">
+        <br>
+        This page shows the comparison between hindi and english hits in the 90s in terms of danceability and acousticness.
+        <br> <br>
+
+        Spotify gives a acousticness score to each track to denote the confidence level of acoustic elements in a track. It is a number between 0 and 1 with a more "acoustic" track having a higher value.
+
+        <br><br>
+        Used here is a kde plot for denoting the difference in the measures of hindi and english tracks in a single plot
+        <br><br>
+    </div>
+    <div class="footer">
+        <p style="background-color:#e9967a;">
+            <a href=" {{ url_for('main.render_audio_features')}}" text-align="left;">Previous Page</a>
+            </p></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+FLASK_APP=startSong.py
+FLASK_DEBUG=True
