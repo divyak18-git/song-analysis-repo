@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/songsenv.iml" filepath="$PROJECT_DIR$/.idea/songsenv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../venv/.idea/venv.iml" filepath="$PROJECT_DIR$/../venv/.idea/venv.iml" />
-    </modules>
-  </component>
-</project>
