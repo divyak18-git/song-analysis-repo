@@ -24,5 +24,3 @@ The following image gives a high level overview of the data flow before renderin
 
 
 ![image](https://user-images.githubusercontent.com/98416285/168846382-6eec0479-b92d-49dc-bbf1-ffc39a1924d6.png)
-
-
