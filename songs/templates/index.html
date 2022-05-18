@@ -1,0 +1,37 @@
+<html font="Indie Flower">
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='finMain.css') }} ">
+</head>
+<body>
+<div class="header">
+<h1> Songs Then and Now </h1>
+<h2>English and Hindi hits compared over the decades</h2>
+</div>
+ <div class="wrapper">
+     <div class="sidediv">
+         <br>
+        All the analysis across this project have been done across top hindi and english songs across from decades 80s to 2010s .
+         The tracks from curated playlists for each decade have been gathered for analysis through Spotify APIs.
+
+         <br>
+         <br>
+
+         For English, the Billboard hits for each decade have been analysed. This page shows the break-up of the country of origin of
+         the billboard hits across each decade. As is apparent, the majority of the Billboard hits are from artists in the USA followed
+         by GB (Great Britain or UK) . During the 80s and 90s, CA (Canada) also made it's presence felt with a few contributions to the Billboard top tracks.
+
+         <p text-align="right"></p>  <a href=" {{ url_for('main.render_hindi_artists')}}" > Next Page</a></p>
+
+    </div>
+    <!--<p>After compiling the data of Billboard hits across each decade, here is the country-wise representation</p> -->
+    <div> <img src="/billboard_country_visualisation/" alt="country-wise visualisation"> </div>
+     <p>     </p>
+
+    <!--<div> <img src="/danceability_visualisation_by_decade/" alt="danceability_visualisation_by_decade"> </div> -->
+
+ </div>
+
+</body>
+</html>
+
+

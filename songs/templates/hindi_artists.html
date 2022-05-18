@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='displayGrid.css') }} ">
+</head>
+<body>
+<div class="grid-container">
+    <div class="header">
+        <h1> Songs Then and Now </h1>
+        <h2>English and Hindi hits compared over the decades</h2>
+    </div>
+    <!--<div> <img src="/danceability_visualisation_by_90sdecade/" alt="danceability_visualisation_by_90sdecade"> -->
+    <div class="left">
+            <img src="/top_artists_visualisation/" alt="top_artists_visualisation">
+    </div>
+    <div class="right" color="white" padding="20px">
+        <br>
+        This page shows the top artists in Hindi across decades.
+        <br><br>
+        Lata Mangeshkar ruled the 80s whereas Arijit Singh ruled the 2010s. During the 90s and 2000s , the focus was more on duets with Kumar Sanu-Alka Yagnik
+        taking a major portion of the pie in the 90s and Udit Narayan-Alka Yagnik in the 2000s
+    </div>
+    <div class="footer">
+        <p style="background-color:#e9967a;">
+            <a href=" {{ url_for('main.index')}}" > Previous Page</a>
+            <a href=" {{ url_for('main.render_audio_features')}}" > Next Page</a>
+            </p></div>
+</div>
+</body>
+</html>
