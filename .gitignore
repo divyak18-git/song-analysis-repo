@@ -4,3 +4,4 @@
 /Scripts
 /share
 .cache
+.env
